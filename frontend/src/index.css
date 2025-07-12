@@ -1,1 +1,30 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add custom global styles here if needed */
+.prose {
+    color: #d1d5db; /* Default text color for prose */
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    color: #f9fafb;
+}
+
+.prose a {
+    color: #60a5fa;
+}
+
+.prose code {
+    background-color: #374151;
+    color: #e5e7eb;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.prose pre {
+    background-color: #1f2937;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
